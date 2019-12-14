@@ -19,7 +19,7 @@ This is a fully working EFI for MSI Z97 macOS Catalina installation booted using
 
  ## Working
 
-Basically everything working including iMessage, Facetime, Airdrop, Handoff, Continuity, iTunes DRM, Apple Watch Unlocking, Intel Quicksync. 
+Basically everything working including iMessage, Facetime, Airdrop, Handoff, Continuity, iTunes DRM, Apple Watch Unlocking, Intel Quicksync. USB is mapped properly, USB3/USB2 all ports are working. [Link to USBMap](https://github.com/i3p9/USBMap-MSI-Z97-Gaming5)
 
 
 
