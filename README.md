@@ -35,5 +35,5 @@ Use a proper plist editor (Like [PlistEdit Pro](https://www.fatcatsoftware.com/p
 
 ## Current versions of Kexts/Opencore in the EFI
 
-* Opencore 0.5.2 (0.5.3 caused very early kernel panic so skipping it for now)
-* Everything else is updated (As of 15 December 2019)
+* Opencore 0.5.4
+* Everything else is updated (As of 18 January 2020)
