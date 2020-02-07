@@ -1,8 +1,8 @@
 # MSI-Z97-Hackintosh-Opencore
 
-This is a fully working EFI for MSI Z97 macOS Catalina installation booted using Opencore.
+This is a fully working EFI for MSI Z97 macOS Catalina (Current: 10.15.3) installation booted using Opencore.
 
-![](https://i.imgur.com/tt3wSGP.png)
+![](https://i.imgur.com/i8ChKEV.png)
 
 ## Specs
 
@@ -35,5 +35,5 @@ Use a proper plist editor (Like [PlistEdit Pro](https://www.fatcatsoftware.com/p
 
 ## Current versions of Kexts/Opencore in the EFI
 
-* Opencore 0.5.4
-* Everything else is updated (As of 18 January 2020)
+* Opencore 0.5.5
+* Everything else is updated (As of 07 February 2020)
