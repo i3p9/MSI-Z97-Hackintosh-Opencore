@@ -1,6 +1,6 @@
 # MSI-Z97-Hackintosh-Opencore
 
-This is a fully working EFI for MSI Z97 macOS Catalina (Current: 10.15.3) installation booted using Opencore.
+This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installation booted using Opencore.
 
 ![](https://i.imgur.com/i8ChKEV.png)
 
@@ -17,9 +17,17 @@ This is a fully working EFI for MSI Z97 macOS Catalina (Current: 10.15.3) instal
 
 
 
+# BIOS Settings
+
+* Settings > Advanced > Integrated Graphics Configuration > IGD Multi-Monitor > **Enabled** (If running iGPU in Headless mode)
+* OC Settings > CPU Features - **Intel VT-d** > **Disabled**
+* OC Settings > CPU Features - **CFG Lock** > **Disabled**
+
+
+
  ## Working
 
-Basically everything working including iMessage, Facetime, Airdrop, Handoff, Continuity, iTunes DRM, Apple Watch Unlocking, Intel Quicksync. USB is mapped properly, USB3/USB2 all ports are working. [Link to USBMap](https://github.com/i3p9/USBMap-MSI-Z97-Gaming5) (Modification to the USBMap: removed HS10 port to accomodate Fenvi t919 usb header)
+Basically everything working including iMessage, Facetime, Airdrop, Handoff, Continuity, iTunes DRM (not TV+), Apple Watch Unlocking, Intel Quicksync. USB is mapped properly, USB3/USB2 all ports are working. [Link to USBMap](https://github.com/i3p9/USBMap-MSI-Z97-Gaming5) (Modification to the USBMap: removed HS10 port to accomodate Fenvi t919 usb header)
 
 
 
@@ -35,5 +43,5 @@ Use a proper plist editor (Like [PlistEdit Pro](https://www.fatcatsoftware.com/p
 
 ## Current versions of Kexts/Opencore in the EFI
 
-* Opencore 0.5.5
-* Everything else is updated (As of 07 February 2020)
+* Opencore 0.6.9
+* Everything else is updated (As of 27 May 2021)
