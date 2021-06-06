@@ -2,7 +2,7 @@
 
 This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installation booted using Opencore.
 
-![](https://i.imgur.com/i0Mvvcl.png)
+![](https://i.imgur.com/pz0F49d.png)
 
 ## Specs
 
