@@ -1,7 +1,6 @@
 # MSI-Z97-Hackintosh-Opencore
 
 This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installation booted using Opencore.
-
 ![](https://i.imgur.com/i0Mvvcl.png)
 
 ## Specs
@@ -41,7 +40,7 @@ Sidecar doesn't work because the Processor/GPU doesn't support HEVC encode/decod
 - You have to add the MLB/ROM/UUID/Serial yourself. (Generate them using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)). Use the SMBIOS `iMac15,1` if using a Dedicated GPU, or the SMBIOS `iMac14,4` if running off of iGPU only.
 
 - Lastly, the DevicesPropertises section, in `PciRoot(0x0)/Pci(0x2,0x0) -> AAPL,ig-platform-id [Comment]`, put  `04001204` if using a Dedicated GPU, or  `0300220D` if running off of iGPU only.
-
+- USB is mapped properly. Link to diagram: https://i.imgur.com/GcuevXE.png
 
 
 ## Current versions of Kexts/Opencore in the EFI
