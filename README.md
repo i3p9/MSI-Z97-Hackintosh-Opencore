@@ -1,7 +1,8 @@
 # MSI-Z97-Hackintosh-Opencore
 
 This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installation booted using Opencore.
-![](https://i.imgur.com/i0Mvvcl.png)
+
+![](https://i.imgur.com/pz0F49d.png)
 
 ## Specs
 
@@ -12,7 +13,7 @@ This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installati
 - Realtek ALC1150 Audio
 - GTX760 2GB GPU
 - Atheoros E2200 Gigabit Ethernet
-- Fenvi T919 Wireless for WiFi and Bluetooth 
+- Fenvi T919 Wireless for WiFi and Bluetooth
 
 
 
@@ -35,7 +36,7 @@ Sidecar doesn't work because the Processor/GPU doesn't support HEVC encode/decod
 
 ## Notes
 
-- Use a proper plist editor (Like Xcode, [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree)) to edit the config.plist file. 
+- Use a proper plist editor (Like Xcode, [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree)) to edit the config.plist file.
 
 - You have to add the MLB/ROM/UUID/Serial yourself. (Generate them using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)). Use the SMBIOS `iMac15,1` if using a Dedicated GPU, or the SMBIOS `iMac14,4` if running off of iGPU only.
 
