@@ -1,13 +1,13 @@
 # MSI-Z97-Hackintosh-Opencore
 
-This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installation booted using Opencore.
+This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.5.1) installation booted using Opencore.
 
-![](https://i.imgur.com/pz0F49d.png)
+![](https://i.imgur.com/WJvMthp.png)
 
 ## Specs
 
 - MSI Z97 Gaming5 Motherboard
-- Intel i5-4690K Processor
+- Intel i5-4690K Processor (Overclocked to 4.4Ghz, 1.23v)
 - 12GB 1333Mhz DDR3 RAM
 - Samsung 256GB NVMe Storage
 - Realtek ALC1150 Audio
@@ -30,7 +30,7 @@ This is a fully working EFI for MSI Z97 macOS Big Sur (Current: 11.4) installati
 Basically everything working including iMessage, Facetime, Airdrop, Handoff, Continuity, iTunes DRM (not TV+), Apple Watch Unlocking, Intel Quicksync. USB is mapped properly, USB3/USB2 all ports are working. [Link to USBMap](https://github.com/i3p9/USBMap-MSI-Z97-Gaming5) (Modification to the mentioned USBMap: removed HS10 port to accomodate Fenvi t919 usb header).
 
 
-Sidecar doesn't work because the Processor/GPU doesn't support HEVC encode/decoding. It can be force enabled but the result is unuseable. If you really want to, use [SidecarFixUp](https://github.com/acidanthera/SidecarFixup).
+Sidecar doesn't work because the Processor/GPU doesn't support HEVC encode/decoding. It can be force enabled but the result is unuseable. If you really want to, use [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock). Note: FeatureUnlock is now enabled in the EFI to enable Universal Control and other features.
 
 
 
@@ -46,5 +46,5 @@ Sidecar doesn't work because the Processor/GPU doesn't support HEVC encode/decod
 
 ## Current versions of Kexts/Opencore in the EFI
 
-* Opencore 0.6.9
-* Everything else is updated (As of 27 May 2021)
+* Opencore 0.7.2
+* Everything else is updated (As of 4 August 2021)

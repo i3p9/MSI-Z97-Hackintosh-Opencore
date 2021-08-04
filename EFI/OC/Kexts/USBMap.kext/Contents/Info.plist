@@ -194,7 +194,7 @@
 					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CwAAAA==

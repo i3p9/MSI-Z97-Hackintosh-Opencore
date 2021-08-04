@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Legacy USBMap (Needs USBInjectAll to load)</string>
+				<string>Legacy USBMap</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -521,13 +521,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SidecarFixup.kext</string>
+				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SidecarFixup</string>
+				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -935,7 +935,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1036,7 +1036,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1</string>
+				<string></string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -1161,6 +1161,8 @@
 			<key>AppleEvent</key>
 			<string>Builtin</string>
 			<key>CustomDelays</key>
+			<false/>
+			<key>GraphicsInputMirroring</key>
 			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>50</integer>
